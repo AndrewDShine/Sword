@@ -42,7 +42,7 @@ public class SwordRunner extends JPanel
 		public int tickNum = 0;
 		public int letterNum = 0;
 		public int colorNum = 0;
-		public Color[] colors = {Color.WHITE, Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.PINK};
+		public Color[] colors = {Color.WHITE, Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA};
 		public BufferedImage[] skyboxes;
 		
 		public static void main(String[] args)
