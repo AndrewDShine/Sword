@@ -37,7 +37,7 @@ public class SwordRunner extends JPanel
 		public final int size = 40;
 		public Entity skybox1;
 		public Entity skybox2;
-		public int levelNum = 3;
+		public int levelNum = 0;
 		public int stage = 0;
 		public int tickNum = 0;
 		public int letterNum = 0;
@@ -426,6 +426,10 @@ public class SwordRunner extends JPanel
 
 					break;
 				case 2:
+					if(levelNum > 3)
+						{
+							g.setColor(Color.WHITE);
+						}
 					g.drawImage(skybox1.getImage(), skybox1.getPos().getX(), skybox1.getPos().getY(), null);
 					g.drawImage(skybox2.getImage(), skybox2.getPos().getX(), skybox2.getPos().getY(), null);
 					g.setFont(z1);
